@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a1557e7eb3d4b1c97aba038b1b1bfd0, type: 3}
-  m_Name: New Bindable String
+  m_Script: {fileID: 11500000, guid: 9dbe84561e7d70c4fa57ee61bb422033, type: 3}
+  m_Name: New Bindable Int
   m_EditorClassIdentifier: 
   boundComponents: []
-  value: 123456
+  value: 666

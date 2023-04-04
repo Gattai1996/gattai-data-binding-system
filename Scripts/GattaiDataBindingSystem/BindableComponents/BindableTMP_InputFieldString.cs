@@ -1,13 +1,14 @@
+using GattaiDataBindingSystem.BindableVariables;
 using TMPro;
 using UnityEngine;
 
-namespace GattaiDataBindingSystem
+namespace GattaiDataBindingSystem.BindableComponents
 {
     /// <summary>
     /// Represents a Unity UI TMP_InputField component that can be bound to a <see cref="BindableString"/> variable.
     /// </summary>
     [RequireComponent(typeof(TMP_InputField))]
-    public class BindableTMP_InputField : BindableComponent<TMP_InputField, BindableString>, ITwoWayDataBinding
+    public class BindableTMP_InputFieldString : BindableComponent<TMP_InputField, BindableString>, ITwoWayDataBinding
     {
         /// <summary>
         /// Sets the text of the TMP_InputField to the value of the bound <see cref="BindableString"/> variable.
