@@ -32,11 +32,13 @@ To use the Gattai Data Binding System in your project, follow these steps:
 Here's an example of how to use Gattai Data Binding System to bind a string value to a TextMeshProUGUI component:
 
 ```
-using Bearich.Gattai;
+using TMPro;
+using UnityEngine;
+using GattaiDataBindingSystem;
 
 public class ExampleScript : MonoBehaviour
 {
-public TMPro.TMP_Text textComponent;
+public TMP_Text textComponent;
 public BindableVariable<string> stringVariable;
 
     private void Start()
@@ -44,13 +46,15 @@ public BindableVariable<string> stringVariable;
         stringVariable.Bind(textComponent);
     }
 
-    [ContextMenu("Set value")]
+    [ContextMenu("Set value")] // Use this option in the context menu to see the TMP_Text changing.
     public void SetValue()
     {
         stringVariable.value = "Hello, world!";
     }
 }
 ```
+
+> ℹ <br> **NOTE:** Download the sample "Data Binding Example" through Package Manager for more examples.
 
 ## Documentation
 
