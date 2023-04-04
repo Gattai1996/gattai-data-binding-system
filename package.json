@@ -1,0 +1,25 @@
+{
+  "name": "com.brunogattai.gattaidatabindingsystem",
+  "version": "1.0.0",
+  "displayName": "Gattai Data Binding System",
+  "description": "An easy solution for binding script data and Unity UI.",
+  "unity": "2021.3",
+  "unityRelease": "15f1",
+  "keywords": [
+    "tools",
+    "databinding",
+    "ui"
+  ],
+  "author": {
+    "name": "Bruno Gattai",
+    "email": "brunogattai1996@gmail.com",
+    "url": "https://github.com/Gattai1996"
+  },
+  "samples": [
+    {
+      "displayName": "Data Binding Example",
+      "description": "Contains examples of how to use the data binding system.",
+      "path": "Samples~/DataBindingExample"
+    }
+  ]
+}
