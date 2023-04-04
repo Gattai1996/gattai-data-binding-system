@@ -54,7 +54,7 @@ public BindableVariable<string> stringVariable;
 }
 ```
 
-> ℹ <br> **NOTE:** Download the sample "Data Binding Example" through Package Manager for more examples.
+> ℹ **NOTE:** Download the sample "Data Binding Example" through Package Manager for more examples.
 
 ## Documentation
 
